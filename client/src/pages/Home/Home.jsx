@@ -36,7 +36,7 @@ const Home = () => {
 
   const handlePrevNext = (x) => {
     setPage((prev) => {
-      if ((prev == 1 && x == -1) || (prev == 2 && x == 1)) return prev;
+      if ((prev == 1 && x == -1) || (prev == 5 && x == 1)) return prev;
       return prev + x;
     });
   };
